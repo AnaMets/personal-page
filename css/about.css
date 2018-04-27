@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+:root {
+    font-size: 20px;
+    font-family: 'Francois One', Arial, Helvetica;
+    background-color: #40F99B;
+}
+
+.social-icon {
+    height: 30px;
+    width: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 400%;
+    color: #fafafa;
+}
+ul {
+    font-size: 75%;
+    text-align: right;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fafafa;
+}
