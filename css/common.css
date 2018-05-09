@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+body {
+    font-size: 20px;
+    font-family: 'Francois One', Arial, Helvetica;
+    max-width: 980px;
+    margin: auto;
+    }
+
+header nav ul {
+   display: flex;
+   padding: 0;
+   }
+    
+header nav ul li{
+   list-style-type: none;
+   font-size: 85%;
+   margin: 0 0.5%;
+   color: #fafafa;
+   
+    }
+
+ header nav ul li a {
+     text-decoration: none;
+     color: #fafafa;
+}
+.social-icon {
+    height: 30px;
+    width: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 400%;
+    color: #fafafa;
+}
+
+.social-icon {
+    height: 30px;
+    width: 30px;
+}
