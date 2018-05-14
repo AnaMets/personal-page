@@ -1,51 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ABOUT</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/about.css">
-    <link rel="icon" 
-      type="image/png" 
-      href="pictures/watermelon.png">
+    <link rel="icon" type="image/png" href="pictures/watermelon.png">
 </head>
+
 <body>
     <header>
-    <nav>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li>/</li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li>/</li>
-            <li><a href="skills.html">SKILLS</a></li>
-            <li>/</li>
-            <li><a href="works.html">WORKS</a></li>
-            <li>/</li>
-            <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="menu">HOME</a></li>
+                <li>/</li>
+                <li><a href="about.html" class="menu">ABOUT</a></li>
+                <li>/</li>
+                <li><a href="skills.html" class="menu">SKILLS</a></li>
+                <li>/</li>
+                <li><a href="works.html" class="menu">WORKS</a></li>
+                <li>/</li>
+                <li><a href="contact.html" class="menu">CONTACT</a></li>
+            </ul>
+        </nav>
         <h1>CORE INFO</h1>
     </header>
-    <article>
-        <p>This web-page is my project at IT Academy in SoftServe. If you find it lovely, that's mean 
-        I spent time really efficienty attenging the course HTML5/ CSS3/ JavaScript Fundamentals.</p>
-        
-        <p>I work full-time as a User Management specialist and spend free time on learning and practising in web-developing. 
-        I'm 24 and currently based in Lviv, Ukraine.</p>
-        
-        <p>I visited quite a lot of cities and changed many places of life, 
-        It was interesting to meet different people and learn something from each. 
-        Today, the biggest dream of mine is to stay free and explore the world and techlogy that make us lifes better.</p>
-    </article>
-    <article>
-        <img src="pictures/ana-about.jpg" alt="Anastasiia Mets">
-    </article>
+    <main>
+        <p>This web-page is my project at IT Academy in SoftServe. If you find it lovely, that's mean I had really efficient time attending the course HTML5/ CSS3/ JavaScript Fundamentals.</p>
+        <article>
+            <div class="about-content">
+            <p>I work full-time as a User Management specialist and spend free time on learning and practising web-developing.</p> 
+            <p>I'm 24 and currently based in Lviv, Ukraine.</p>
+            <p>I visited quite a lot of cities and changed many places of life, It was interesting to meet different people and learn something from each. Today, the biggest dream of mine is to stay free and explore the world and techlogy that make us lifes
+                better.</p>
+            </div>
+            <img src="pictures/polaroid-photo.png" alt="Anastasiia Mets">
+        </article>
+    </main>
     <footer>
-        <a href="https://www.facebook.com/anastasiiamets" target="_blank"><img src="pictures/facebook.png" alt="facebook-logo" class="social-icon"></a>
-        <a href="https://www.linkedin.com/in/anastasiia-mets-023088155/" target="_blank"><img src="pictures/linkedin.png" alt="linkedin-logo" class="social-icon"></a>
-        <a href="mailto:anastasiia.mets@gmail.com" target="_blank"><img src="pictures/mail.png" alt="mail-logo" class="social-icon"></a>
+        <nav class="navbar fixed-bottom navbar-dark bg-dark">
+            <form class="form-inline">
+                <a href="https://www.facebook.com/anastasiiamets" target="_blank"><img src="pictures/facebook.png" alt="facebook-logo" class="social-icon"></a>
+                <a href="https://www.linkedin.com/in/anastasiia-mets-023088155/" target="_blank"><img src="pictures/linkedin.png" alt="linkedin-logo" class="social-icon"></a>
+                <a href="mailto:anastasiia.mets@gmail.com" target="_blank"><img src="pictures/mail.png" alt="mail-logo" class="social-icon"></a>
+            </form>
+        </nav>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
+
 </html>

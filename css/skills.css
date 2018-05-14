@@ -1,0 +1,24 @@
+html body {
+    background-color: #7B6D8D;
+}
+
+
+.skills-img {
+    width: 70px;
+    height: 70px;
+}
+.card-header button{
+    display: flex;
+    align-items: center;
+}
+
+.card-header button h2{
+    margin-left: 20px;
+}
+.card-header {
+    background-color: #333333;
+}
+#skills-icon{
+    text-decoration: none;
+    color: #fafafa;
+}

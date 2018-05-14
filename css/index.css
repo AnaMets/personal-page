@@ -2,6 +2,15 @@ html body {
     background-color: #8499B1;
 }
 
+.carousel{
+    margin-top: 100px;
+}
+.carousel-content {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
 
 h1{
     text-align: center;
@@ -10,29 +19,32 @@ h1{
 }
 h2{
     text-align: center;
+    color:black;
 }
-
-p {
-    text-decoration: none;
-    text-align: center;
-}
-
 
 #learn-more {
-    margin-left: 45%!important;
+    margin: auto;
+    margin-bottom: 70px;
 }
 
 
 #learn-more a{
+    
     text-decoration: none;
     color: #fafafa;
     
 }
 
 #learn-more a:hover {
-    color: #212529
+    color: #212529;
 }
 
+.carousel-indicators li{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin-top: 30px;
+}
 
 @media (max-width: 500px){
     footer nav {

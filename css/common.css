@@ -6,20 +6,20 @@ html body {
     margin: auto;
     }
 
-header nav ul {
+body header nav ul {
    display: flex;
-   padding: 0;
-   }
+   justify-content: flex-end;
+   margin-top: auto;
+}
     
-header nav ul li{
+header nav ul li {
    list-style-type: none;
    font-size: 85%;
    margin: 0 0.5%;
    color: #fafafa;
-   
-    }
+}
 
-header nav ul li a {
+nav ul li .menu {
      text-decoration: none;
      color: #fafafa;
 }
@@ -34,8 +34,4 @@ h1{
     color: #fafafa;
 }
 
-.social-icon {
-    height: 30px;
-    width: 30px;
-}
 

@@ -1,56 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Anastasiia Mets</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" 
-    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" 
-      type="image/png" 
-      href="pictures/watermelon.png">
+    <link rel="icon" type="image/png" href="pictures/watermelon.png">
 </head>
+
 <body>
     <header>
-    <nav>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li>/</li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li>/</li>
-            <li><a href="skills.html">SKILLS</a></li>
-            <li>/</li>
-            <li><a href="works.html">WORKS</a></li>
-            <li>/</li>
-            <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-    </nav>
-    <div class="salute">
-        <h1>SALUTE!<br>I AM ANASTASIIA</h1>
-        <h2>ENTRY LEVEL WEB DEVELOPER/<br> 
-            USER MANAGEMENT SPECIALIST<br> 
-            CURRENTLY WORKING @ NBS EUROPE
-        </h2>
-        <button type="button" class="btn btn-outline-light" id="learn-more"><a href="about.html">LEARN MORE</a></button>
-    </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="menu">HOME</a></li>
+                <li>/</li>
+                <li><a href="about.html" class="menu">ABOUT</a></li>
+                <li>/</li>
+                <li><a href="skills.html" class="menu">SKILLS</a></li>
+                <li>/</li>
+                <li><a href="works.html" class="menu">WORKS</a></li>
+                <li>/</li>
+                <li><a href="contact.html" class="menu">CONTACT</a></li>
+            </ul>
+        </nav>
     </header>
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-content">
+                        <h1>SALUTE!<br>I AM ANASTASIIA</h1>
+                        <h2>ENTRY LEVEL WEB DEVELOPER/<br> USER MANAGEMENT SPECIALIST<br> CURRENTLY WORKING @ NBS EUROPE
+                        </h2>
+                        <button type="button" class="btn btn-outline-light" id="learn-more"><a href="about.html">LEARN MORE</a></button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-content">
+                        <h1>MULTI DISCIPLINE</h1>
+                        <h2>BEING MULTI DISCIPLINED IS A BIG PART OF ME.<br>WHETHER IT'S DESIGN, DEVELOPMENT OR MANAGEMENT;<br> I'M THERE.</h2>
+                        <button type="button" class="btn btn-outline-light" id="learn-more"><a href="skills.html">LEARN MORE</a></button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-content">
+                        <h1>WORK WORK WORK!</h1>
+                        <h2>I SPEND A LOT OF EFFORTS MAKING THINGS JUST PERFECT.</h2>
+                        <button type="button" class="btn btn-outline-light" id="learn-more"><a href="works.html">LEARN MORE</a></button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-content">
+                        <h1>INTERESTED?</h1>
+                        <h2>IF YOU'VE GOT AN EXCITING PROJECT YOU'RE<br>INTERESTED IN WORRKING TOGETHER ON, GET IN TOUCH!
+                        </h2>
+                        <button type="button" class="btn btn-outline-light" id="learn-more"><a href="contact.html">LEARN MORE</a></button>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+        </div>
+    </main>
     <footer>
         <nav class="navbar fixed-bottom navbar-dark bg-dark">
-          <form class="form-inline">
+            <form class="form-inline">
                 <a href="https://www.facebook.com/anastasiiamets" target="_blank"><img src="pictures/facebook.png" alt="facebook-logo" class="social-icon"></a>
                 <a href="https://www.linkedin.com/in/anastasiia-mets-023088155/" target="_blank"><img src="pictures/linkedin.png" alt="linkedin-logo" class="social-icon"></a>
                 <a href="mailto:anastasiia.mets@gmail.com" target="_blank"><img src="pictures/mail.png" alt="mail-logo" class="social-icon"></a>
-          </form>
-    </nav>
+            </form>
+        </nav>
     </footer>
-    
-   
-    
+
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
+
 </html>
