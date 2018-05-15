@@ -1,118 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WORKS</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/works.css">
-    <link rel="icon" 
-      type="image/png" 
-      href="pictures/watermelon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WORKS</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/works.css">
+  <link rel="icon" type="image/png" href="pictures/watermelon.png">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="menu">HOME</a></li>
-                <li>/</li>
-                <li><a href="about.html" class="menu">ABOUT</a></li>
-                <li>/</li>
-                <li><a href="skills.html" class="menu">SKILLS</a></li>
-                <li>/</li>
-                <li><a href="works.html" class="menu">WORKS</a></li>
-                <li>/</li>
-                <li><a href="contact.html" class="menu">CONTACT</a></li>
-            </ul>
-        </nav>
-    <h1>I AM NOT AT THIS POINT YET</h1>
-        <h1></h1>Work in progress</h1>
-    
-    </header>
-    <main>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="menu">HOME</a></li>
+        <li>/</li>
+        <li><a href="about.html" class="menu">ABOUT</a></li>
+        <li>/</li>
+        <li><a href="skills.html" class="menu">SKILLS</a></li>
+        <li>/</li>
+        <li><a href="works.html" class="menu">WORKS</a></li>
+        <li>/</li>
+        <li><a href="contact.html" class="menu">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+        <h2 id="projects">MY WORKS AND PROJECTS</h2>
+        <div class="row projects-container">
         </div>
-        <section>
-            <h2 id="works">MY WORKS AND PROJECTS</h2>
-            <div class="row products-container">
-               <!--Products are dynamically generated here-->
+      </section>
+
+      <div class="modal fade" id="projectInfoModal" tabindex="-1" role="dialog" aria-labelledby="projectInfoLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="projectInfoLabel">Project Info</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
-        </section>
-        
-            <div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" aria-labelledby="productInfoLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="productInfoLabel">Product Info</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
+            <div class="modal-body">
               <img class="card-img-top" src="" alt="">
               <h4 class="card-title"></h4>
               <p class="card-text"></p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button class="btn btn-primary buy" data-id="id">Buy</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Modal Cart -->
-    <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="cartLabel">Cart</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="cart-product-list-container"></div>
-            <hr>
-            <div class="container">
-              <form>
-                <div class="form-group row">
-                  <label for="client-name" class="col-4 col-form-label">Your name:</label>
-                  <input class="form-control col-8" type="text" id="client-name" required>
-                </div>
-                <div class="form-group row">
-                  <label for="client-email" class="col-4 col-form-label">Your email:</label>
-                  <input class="form-control col-8" type="email" id="client-email" required>
-                </div>
-              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-secondary" data-id="urlGit">Go to Git</button>
+              <button type="button" class="btn btn-secondary" data-id="run">Run the project</button>
             </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button class="btn btn-primary order">Order</button>
-          </div>
         </div>
       </div>
-    </div>
-        
-        
-        
-        
-        
-        
-    </main>
-        <footer>
-        <nav class="navbar fixed-bottom navbar-dark bg-dark">
-            <form class="form-inline">
-                <a href="https://www.facebook.com/anastasiiamets" target="_blank"><img src="pictures/facebook.png" alt="facebook-logo" class="social-icon"></a>
-                <a href="https://www.linkedin.com/in/anastasiia-mets-023088155/" target="_blank"><img src="pictures/linkedin.png" alt="linkedin-logo" class="social-icon"></a>
-                <a href="mailto:anastasiia.mets@gmail.com" target="_blank"><img src="pictures/mail.png" alt="mail-logo" class="social-icon"></a>
-            </form>
-        </nav>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </main>
+  <footer>
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+      <form class="form-inline">
+        <a href="https://www.facebook.com/anastasiiamets" target="_blank"><img src="pictures/facebook.png" alt="facebook-logo" class="social-icon"></a>
+        <a href="https://www.linkedin.com/in/anastasiia-mets-023088155/" target="_blank"><img src="pictures/linkedin.png" alt="linkedin-logo" class="social-icon"></a>
+        <a href="mailto:anastasiia.mets@gmail.com" target="_blank"><img src="pictures/mail.png" alt="mail-logo" class="social-icon"></a>
+      </form>
+    </nav>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+  <script src="js/project-list.js"></script>
+  <script src="js/index.js"></script>
 </body>
+
 </html>

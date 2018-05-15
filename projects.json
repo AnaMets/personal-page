@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "Fibonacci Number",
+        "image": "fibo.jpg",
+        "description": "Fibonacci Numbers Sequence Calculator.",
+        "urlGit": "https://github.com/AnastasiiaMets/homework-3fibo",
+        "run": "https://anastasiiamets.github.io/homework-3fibo/"
+    },
+    {
+        "id": "2",
+        "title": "Quadratic equation",
+        "image": "quadratic-equation.jpg",
+        "description": "Quadratic Equation Solver",
+        "urlGit": "https://github.com/AnastasiiaMets/homework-2js",
+        "run": "https://anastasiiamets.github.io/homework-2js/"
+    },
+    {
+        "id": "3",
+        "title": "Plase We Live In",
+        "image": "earth.jpg",
+        "description": "Web-side about the Earth in pure HTML.",
+        "urlGit": "https://github.com/AnastasiiaMets/homework-1",
+        "run": "https://anastasiiamets.github.io/homework-1/"
+    }
+]

@@ -4,12 +4,15 @@ html body {
 
 .carousel{
     margin-top: 100px;
+    flex-wrap: wrap;
 }
 .carousel-content {
     display: grid;
     align-items: center;
     justify-content: center;
     height: 500px;
+    margin: 20px;
+    min-width: 400px;
 }
 
 h1{
@@ -43,12 +46,18 @@ h2{
     border-radius: 50%;
     width: 12px;
     height: 12px;
-    margin-top: 30px;
+    margin-top: 5%;
 }
 
 @media (max-width: 500px){
     footer nav {
         height: 10px;
     }
+    .social-icon {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    }
+
     
 }
