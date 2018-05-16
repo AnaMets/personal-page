@@ -1,10 +1,31 @@
-:root {
-    background-color: #7B6D8D;
+html body {
+    background-color: #F95C7E;
 }
 
-
+html body p{
+    text-align: right;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    
+}
+.coctact-text {
+    line-height: 2.3;
+}
 
 img {
     height: 200px;
     width: 200px;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.coctact-text, .contact-form {
+    margin:7%;
+}
+.placeholderForMessage pleaseholder{
+    height: 70px;
 }
